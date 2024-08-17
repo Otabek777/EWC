@@ -16,10 +16,15 @@
     <header class="header">
         <div class="container">
             <div class="header__box row align-items-center">
-                <div class="header__left col-lg-3">
-                    <a href="/" class="header__logo "></a>
+                <div class="header__left col-lg-3 col-md-3 col-6">
+                    <a href="/" class="header__logo"></a>
                 </div>
-                <div class="header__wrap d-flex flex-wrap align-items-center col-lg-9">
+                <div class="header__burgir col-6">
+                    <div class="btn">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="header__wrap d-flex flex-wrap align-items-center col-lg-9 col-md-9 col-12">
                     <div class="header__soc">
                         <a href="#">
                             <img src="img/ico_top_tlgrm.png" alt="">
@@ -56,6 +61,32 @@
             </div>
         </div>
     </header>
+    <!-- modal -->
+    <div class="mainModal">
+        <div class="modal-close"></div>
+        <div class="mainModal__block">
+            <img src="img/modal-img.png" alt="" class="bg">
+            <div class="mainModal__wrap">
+                <h5>Давайте мы вам позвоним</h5>
+                <p>Оставьте свой номер, и мы перезвоним вам</p>
+                <div class="mainModal__input">
+                    <input type="text" placeholder="Введите ваше имя">
+                </div>
+                <div class="mainModal__input">
+                    <input type="tel" placeholder="+998909099090">
+                </div>
+                <button class="mainModal__btn">
+                    <svg viewBox="0 0 32 32"><path fill-rule="evenodd" d="M23.1928046,29.9984659 C22.8359607,29.9984659 17.2785925,30.2931635 9.28989516,22.7134914 C2.86079512,16.6135311 2.07524092,10.0539422 2.00679659,8.80762336 C1.94021893,7.5936684 2.28772944,4.54835611 6.47590001,2.28568846 C6.99483245,2.00530563 8.02367512,1.88114054 8.28936355,2.14689741 C8.40727446,2.26483869 11.9225129,8.05080755 12.0149127,8.24250103 C12.1073125,8.43388332 12.153668,8.62246489 12.153668,8.80731217 C12.153668,9.07151308 11.9654461,9.40199761 11.5886912,9.79845458 C11.2122474,10.1949115 10.8028259,10.5583823 10.3601155,10.8885556 C9.91740519,11.2190402 9.50798368,11.5691297 9.13122877,11.9391355 C8.75478497,12.30883 8.56656308,12.6131745 8.56656308,12.8509243 C8.59207414,13.4680154 9.09762883,15.678403 12.9488666,19.0632244 C16.8007267,22.4489793 18.6561901,23.4027788 18.8344565,23.4687513 C19.013034,23.5347237 19.1614337,23.5673987 19.280278,23.5673987 C19.5182776,23.5673987 19.8222326,23.3794395 20.1921431,23.0028988 C20.5617424,22.6260468 21.8052514,20.9213441 22.2016063,20.5444922 C22.5979611,20.1682626 22.9283606,19.9799922 23.1928046,19.9799922 C23.3776042,19.9799922 23.5658261,20.0260484 23.7571591,20.1184721 C23.9488033,20.2108957 29.7407488,23.6010073 29.8515042,23.7142807 C30.152037,24.0223595 29.9398596,24.9839388 29.7127489,25.5285226 C28.1267072,29.3318954 24.4080025,29.9984659 23.1928046,29.9984659 Z"></path></svg>
+                    Жду звонка</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="mainCall ">
+        <button class="modal-open">
+            <svg viewBox="0 0 32 32"><path fill-rule="evenodd" d="M23.1928046,29.9984659 C22.8359607,29.9984659 17.2785925,30.2931635 9.28989516,22.7134914 C2.86079512,16.6135311 2.07524092,10.0539422 2.00679659,8.80762336 C1.94021893,7.5936684 2.28772944,4.54835611 6.47590001,2.28568846 C6.99483245,2.00530563 8.02367512,1.88114054 8.28936355,2.14689741 C8.40727446,2.26483869 11.9225129,8.05080755 12.0149127,8.24250103 C12.1073125,8.43388332 12.153668,8.62246489 12.153668,8.80731217 C12.153668,9.07151308 11.9654461,9.40199761 11.5886912,9.79845458 C11.2122474,10.1949115 10.8028259,10.5583823 10.3601155,10.8885556 C9.91740519,11.2190402 9.50798368,11.5691297 9.13122877,11.9391355 C8.75478497,12.30883 8.56656308,12.6131745 8.56656308,12.8509243 C8.59207414,13.4680154 9.09762883,15.678403 12.9488666,19.0632244 C16.8007267,22.4489793 18.6561901,23.4027788 18.8344565,23.4687513 C19.013034,23.5347237 19.1614337,23.5673987 19.280278,23.5673987 C19.5182776,23.5673987 19.8222326,23.3794395 20.1921431,23.0028988 C20.5617424,22.6260468 21.8052514,20.9213441 22.2016063,20.5444922 C22.5979611,20.1682626 22.9283606,19.9799922 23.1928046,19.9799922 C23.3776042,19.9799922 23.5658261,20.0260484 23.7571591,20.1184721 C23.9488033,20.2108957 29.7407488,23.6010073 29.8515042,23.7142807 C30.152037,24.0223595 29.9398596,24.9839388 29.7127489,25.5285226 C28.1267072,29.3318954 24.4080025,29.9984659 23.1928046,29.9984659 Z"></path></svg>
+        </button>
+    </div>
     <main class="main">
         <section class="banner">
             <div class="banner__slider">
@@ -93,7 +124,12 @@
             <div class="banner__bottom">
                 <div class="banner__side">
                     <div class="container">
-                        
+                        <div class="banner__side_box">
+                            <div class="banner__side_input"></div>
+                            <button class="banner__side_btn">Узнать условия</button>
+                            <p>99.2% одобрения <br>
+                                на получение визы</p>
+                        </div>
                     </div>
                 </div>
                 <div class="line"></div>
@@ -132,47 +168,47 @@
             <div class="container">
                 <h3>Тарифы в <span>Ташкенте</span></h3>
                 <div class="services__box row gx-5">
-                    <div class="services__wrap col-lg-3 p-1">
+                    <div class="services__wrap col-lg-3 col-md-6 col-12 p-1">
                         <div class="services__block">
                             <h4>Подготовка</h4>
                             <p>Полная подготовка для самостоятельной подачи.
                                 Сборы оплачиваются самостоятельно
                             </p>
-                            <button class="services__btn">Оставить заявку</button>
+                            <button class="services__btn modal-open">Оставить заявку</button>
                             <button class="services__open">
                                 <img src="img/show_price_details.png" alt="">
                                 Показать подробнее о тарифе
                             </button>
                         </div>
                     </div>
-                    <div class="services__wrap col-lg-3 p-1">
+                    <div class="services__wrap col-lg-3 col-md-6 col-12 p-1">
                         <div class="services__block">
                             <span>Лучшее предложение</span>
                             <h4>Все включено</h4>
                             <p>Полное оформление документов с подачей в ВЦ. Все сборы включены</p>
-                            <button class="services__btn">Оставить заявку</button>
+                            <button class="services__btn modal-open">Оставить заявку</button>
                             <button class="services__open">
                                 <img src="img/show_price_details.png" alt="">
                                 Показать подробнее о тарифе
                             </button>
                         </div>
                     </div>
-                    <div class="services__wrap col-lg-3 p-1">
+                    <div class="services__wrap col-lg-3 col-md-6 col-12 p-1">
                         <div class="services__block">
                             <h4>Срочная виза</h4>
                             <p>Срочное оформление визы под ключ. Все сборы включены</p>
-                            <button class="services__btn">Оставить заявку</button>
+                            <button class="services__btn modal-open">Оставить заявку</button>
                             <button class="services__open">
                                 <img src="img/show_price_details.png" alt="">
                                 Показать подробнее о тарифе
                             </button>
                         </div>
                     </div>
-                    <div class="services__wrap col-lg-3 p-1">
+                    <div class="services__wrap col-lg-3 col-md-6 col-12 p-1">
                         <div class="services__block">
                             <h4>Гарантированная</h4>
                             <p>Оформление длинной визы под ключ от 3 до 5 лет гарантированно. Все сборы включены</p>
-                            <button class="services__btn">Оставить заявку</button>
+                            <button class="services__btn modal-open">Оставить заявку</button>
                             <button class="services__open">
                                 <img src="img/show_price_details.png" alt="">
                                 Показать подробнее о тарифе
@@ -201,12 +237,28 @@
                             4
                         </div>
                     </div>
-                    <p>1. Выберите цель поездки</p>
-                    <div class="calculation__btn">
-                        <button class="btn">Туризм</button>
-                        <button class="btn">Обучение</button>
-                        <button class="btn">Бизнес</button>
-                        <button class="btn">Медицина</button>
+                    <div class="wrap active">
+                        <p>1. Выберите цель поездки</p>
+                        <div class="calculation__btn">
+                            <button class="btn">Туризм</button>
+                            <button class="btn">Обучение</button>
+                            <button class="btn">Бизнес</button>
+                            <button class="btn">Медицина</button>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <p>2. Были ли визы за последние 3 года</p>
+                        <div class="calculation__btn">
+                            <button class="btn">Да</button>
+                            <button class="btn">Нет</button>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <p>3. Как срочно нужна виза</p>
+                        <div class="calculation__btn">
+                            <button class="btn">Срок (от 1 дня до 1 недели)</button>
+                            <button class="btn">Несрочно (от недели и более)</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -246,7 +298,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -282,7 +334,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -318,7 +370,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -354,7 +406,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -390,7 +442,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -426,7 +478,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <button class="popularCou__btn">
+                            <button class="popularCou__btn modal-open">
                                 Оставить заявку
                             </button>
                         </div>
@@ -438,42 +490,42 @@
             <div class="container">
                 <h3>Мы оформим визу...</h3>
                 <div class="registration__box row">
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6 col-12">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon1.png" alt="">
                         </div>
                         <h6>Без оплаченной брони</h6>
                         <p>Нам не нужны оплаченные брони, вы не рискуете своими деньгами.</p>
                     </div>
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6 col-12">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon2.png" alt="">
                         </div>
                         <h6>Без доверенности</h6>
                         <p>Нам не нужна доверенность – экономьте с нами ваши время и деньги.</p>
                     </div>
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6 col-12">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon3.png" alt="">
                         </div>
                         <h6>Без личного присутствия </h6>
                         <p>Нам не нужно ваше личное присутствие для оформления документов.</p>
                     </div>
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6 col-12">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon4.png" alt="">
                         </div>
                         <h6>Безопасно</h6>
                         <p>Ваши персональные данные защищены 256-битным SSL шифрованием.</p>
                     </div>
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6 col-12">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon5.png" alt="">
                         </div>
                         <h6>Всего за сутки</h6>
                         <p>Мы увеличиваем скорость обработки и выдачи визы для вас до 24 часов!</p>
                     </div>
-                    <div class="registration__block col-lg-4">
+                    <div class="registration__block col-lg-4 col-md-6">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <img src="img/icon6.png" alt="">
                         </div>
@@ -485,7 +537,7 @@
         </section>
         <section class="appForm d-flex align-items-center">
             <div class="container">
-                <div class="appForm__wrap col-lg-5">
+                <div class="appForm__wrap col-lg-5 col-md-8">
                     <h3>Остались вопросы?</h3>
                     <p>Оставьте свой номер и наш менеджер перезвонит вам и ответит на все волнующие вас вопросы.</p>
                     <div class="appForm__input">
@@ -513,31 +565,49 @@
             <div class="container">
                 <h3>Наши партнеры</h3>
                 <div class="partners__box row">
-                    <div class="partners__block col-lg-3">
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
                         <div class="partners__img">
                             <img src="img/kaplan-logo.jpg" alt="">
                         </div>
                         <p>Обучающие курсы иностранных языков для поездок заграницу</p>
                     </div>
-                    <div class="partners__block col-lg-3">
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
                         <div class="partners__img">
                             <img src="img/kaplan-logo.jpg" alt="">
                         </div>
                         <p>Обучающие курсы иностранных языков для поездок заграницу</p>
                     </div>
-                    <div class="partners__block col-lg-3">
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
                         <div class="partners__img">
                             <img src="img/kaplan-logo.jpg" alt="">
                         </div>
                         <p>Обучающие курсы иностранных языков для поездок заграницу</p>
                     </div>
-                    <div class="partners__block col-lg-3">
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
                         <div class="partners__img">
                             <img src="img/kaplan-logo.jpg" alt="">
                         </div>
                         <p>Обучающие курсы иностранных языков для поездок заграницу</p>
                     </div>
-                    <div class="partners__block col-lg-3">
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
+                        <div class="partners__img">
+                            <img src="img/kaplan-logo.jpg" alt="">
+                        </div>
+                        <p>Обучающие курсы иностранных языков для поездок заграницу</p>
+                    </div>
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
+                        <div class="partners__img">
+                            <img src="img/kaplan-logo.jpg" alt="">
+                        </div>
+                        <p>Обучающие курсы иностранных языков для поездок заграницу</p>
+                    </div>
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
+                        <div class="partners__img">
+                            <img src="img/kaplan-logo.jpg" alt="">
+                        </div>
+                        <p>Обучающие курсы иностранных языков для поездок заграницу</p>
+                    </div>
+                    <div class="partners__block col-lg-3 col-md-6 col-12">
                         <div class="partners__img">
                             <img src="img/kaplan-logo.jpg" alt="">
                         </div>
@@ -551,15 +621,15 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__top row d-flex align-items-center">
-                <div class="footer__logo col-lg-3">
+                <div class="footer__logo col-lg-3 col-md-4">
                     <a href="/" class="logo"></a>
                 </div>
-                <div class="footer__text col-lg-6">
+                <div class="footer__text col-lg-6 col-md-8">
                     <p>Обращаем ваше внимание на то, что информация на сайте предоставлена исключительно для ознакомления и не является публичной офертой, определяемой положениями ст. 437 ГК РФ. </p>
                 </div>
             </div>
             <div class="footer__content row">
-                <div class="footer__block col-lg-3">
+                <div class="footer__block col-lg-3 col-md-6 col-12">
                     <div class="footer__wrap">
                         <h5>Путешественникам</h5>
                         <ul class="footer__navbar">
@@ -589,7 +659,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer__block col-lg-3">
+                <div class="footer__block col-lg-3 col-md-6 col-12">
                     <div class="footer__wrap">
                         <h5>Партнерам</h5>
                         <ul class="footer__navbar">
@@ -622,7 +692,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer__block col-lg-3">
+                <div class="footer__block col-lg-3 col-md-6 col-12">
                     <div class="footer__wrap">
                         <h5>Мы в соц.сетях</h5>
                         <ul class="footer__navbar">
@@ -646,7 +716,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer__block col-lg-3">
+                <div class="footer__block col-lg-3 col-md-6 col-12">
                     <div class="footer__wrap">
                         <h5>Телефон</h5>
                         <a href="tel:+9989099090" class="footer__phone">
@@ -668,14 +738,14 @@
                 </div>
             </div>
             <div class="footer__yandex row">
-                <div class="yandex col-lg-4">
+                <div class="yandex col-lg-4 col-md-12 justify-content-center">
                     <img src="img/footer_yandex.png" alt="">
                     <div class="wrap">
                         <p>173 оценки</p>
                         <a href="#">Смотреть</a>
                     </div>
                 </div>
-                <div class="pay col-lg-8">
+                <div class="pay col-lg-8 col-md-12">
                     <img src="img/footer_cards.png" alt="">
                     <p>Вы можете оплатить наши услуги online, банковскими картами или наличными в офисе</p>
                 </div>
@@ -706,6 +776,29 @@
             arrows:true,
             centerMode: true,
             centerPadding: '150px',
+            responsive: [
+                {
+                breakpoint: 1300,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: '110px',
+                }
+                },
+                {
+                breakpoint: 993,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '110px',
+                }
+                },
+                {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '30px',
+                }
+                }
+            ]
         });
     </script>
 </body>
