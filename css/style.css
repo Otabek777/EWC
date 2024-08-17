@@ -1575,8 +1575,8 @@ h6 {
   height: 2px;
   background: #fff;
   margin: 3px 0;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .header__burgir .btn.active span:nth-child(2) {
